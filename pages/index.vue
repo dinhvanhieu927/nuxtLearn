@@ -40,6 +40,21 @@ export default {
     ctx.moveTo(300, 250);
     ctx.lineTo(300, 400);
     ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(300, 400);
+    ctx.lineTo(400, 350);
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(400, 350);
+    ctx.lineTo(400, 200);
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(400, 200);
+    ctx.lineTo(200, 350);
+    ctx.stroke();
   }
 }
 </script>
